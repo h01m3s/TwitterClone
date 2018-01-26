@@ -13,8 +13,10 @@
 		DB48D301201AD73400A09429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB48D2FF201AD73400A09429 /* LaunchScreen.storyboard */; };
 		DB48D309201AD88400A09429 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D308201AD88400A09429 /* HomeController.swift */; };
 		DB48D30B201AE0AC00A09429 /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D30A201AE0AC00A09429 /* HomeDatasourceController.swift */; };
-		DB48D310201AE60700A09429 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D30F201AE60700A09429 /* Cells.swift */; };
+		DB48D310201AE60700A09429 /* UserHeaderFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D30F201AE60700A09429 /* UserHeaderFooter.swift */; };
 		DB48D312201AE65A00A09429 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D311201AE65A00A09429 /* HomeDatasource.swift */; };
+		DB48D314201BA09C00A09429 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D313201BA09C00A09429 /* User.swift */; };
+		DB48D316201BA48800A09429 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D315201BA48800A09429 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +30,10 @@
 		DB48D302201AD73400A09429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB48D308201AD88400A09429 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		DB48D30A201AE0AC00A09429 /* HomeDatasourceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
-		DB48D30F201AE60700A09429 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		DB48D30F201AE60700A09429 /* UserHeaderFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHeaderFooter.swift; sourceTree = "<group>"; };
 		DB48D311201AE65A00A09429 /* HomeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
+		DB48D313201BA09C00A09429 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DB48D315201BA48800A09429 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				DB48D311201AE65A00A09429 /* HomeDatasource.swift */,
+				DB48D313201BA09C00A09429 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,7 +101,8 @@
 		DB48D30E201AE5E900A09429 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DB48D30F201AE60700A09429 /* Cells.swift */,
+				DB48D30F201AE60700A09429 /* UserHeaderFooter.swift */,
+				DB48D315201BA48800A09429 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -248,9 +254,11 @@
 			files = (
 				DB48D312201AE65A00A09429 /* HomeDatasource.swift in Sources */,
 				DB48D2F7201AD73400A09429 /* AppDelegate.swift in Sources */,
-				DB48D310201AE60700A09429 /* Cells.swift in Sources */,
+				DB48D314201BA09C00A09429 /* User.swift in Sources */,
+				DB48D310201AE60700A09429 /* UserHeaderFooter.swift in Sources */,
 				DB48D30B201AE0AC00A09429 /* HomeDatasourceController.swift in Sources */,
 				DB48D309201AD88400A09429 /* HomeController.swift in Sources */,
+				DB48D316201BA48800A09429 /* UserCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
