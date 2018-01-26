@@ -18,6 +18,7 @@
 		DB48D314201BA09C00A09429 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D313201BA09C00A09429 /* User.swift */; };
 		DB48D316201BA48800A09429 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D315201BA48800A09429 /* UserCell.swift */; };
 		DB48D318201BAFAF00A09429 /* HomeDatasourceController+navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D317201BAFAF00A09429 /* HomeDatasourceController+navbar.swift */; };
+		DB48D31A201BB2C300A09429 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D319201BB2C300A09429 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		DB48D313201BA09C00A09429 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DB48D315201BA48800A09429 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		DB48D317201BAFAF00A09429 /* HomeDatasourceController+navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceController+navbar.swift"; sourceTree = "<group>"; };
+		DB48D319201BB2C300A09429 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				DB48D30F201AE60700A09429 /* UserHeaderFooter.swift */,
 				DB48D315201BA48800A09429 /* UserCell.swift */,
+				DB48D319201BB2C300A09429 /* TweetCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				DB48D312201AE65A00A09429 /* HomeDatasource.swift in Sources */,
 				DB48D2F7201AD73400A09429 /* AppDelegate.swift in Sources */,
 				DB48D314201BA09C00A09429 /* User.swift in Sources */,
+				DB48D31A201BB2C300A09429 /* TweetCell.swift in Sources */,
 				DB48D310201AE60700A09429 /* UserHeaderFooter.swift in Sources */,
 				DB48D30B201AE0AC00A09429 /* HomeDatasourceController.swift in Sources */,
 				DB48D318201BAFAF00A09429 /* HomeDatasourceController+navbar.swift in Sources */,
