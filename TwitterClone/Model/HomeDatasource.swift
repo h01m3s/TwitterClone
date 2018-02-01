@@ -7,15 +7,28 @@
 //
 
 import LBTAComponents
+import TRON
+import SwiftyJSON
 
-class HomeDatasource: Datasource {
+class HomeDatasource: Datasource, JSONDecodable {
     
-    let users: [User] = {
-        let deadpoolUser = User(name: "Deadpool", username: "@deadpool", bioText: "iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-c and build iOS apps!", profileImage: #imageLiteral(resourceName: "deadpool_image"))
-        let ironmanUser = User(name: "Ironman", username: "@ironman", bioText: "Richest and smartest person in the world", profileImage: #imageLiteral(resourceName: "ironman_image"))
-        let testUser = User(name: "TESTUSER", username: "@testuser", bioText: "iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-c and build iOS apps! iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-c and build iOS apps! iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-c and build iOS apps! iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-c and build iOS apps! ", profileImage: #imageLiteral(resourceName: "deadpool_image"))
-        return [deadpoolUser, ironmanUser, testUser]
-    }()
+    let users: [User]
+    
+    required init(json: JSON) throws {
+        
+        var users = [User]()
+        
+        let array = json["users"].array
+        for userJson in array! {
+            let name = userJson["name"].stringValue
+            let username = userJson["username"].stringValue
+            let bio = userJson["bio"].stringValue
+            
+            let user = User(name: name, username: username, bioText: bio, profileImage: UIImage())
+            users.append(user)
+        }
+        self.users = users
+    }
     
     let tweets: [Tweet] = {
         let deadpoolUser = User(name: "Deadpool", username: "@deadpool", bioText: "iPhone, iPad, iOS Programming Community. Join us to learn Swift, Objective-c and build iOS apps!", profileImage: #imageLiteral(resourceName: "deadpool_image"))
