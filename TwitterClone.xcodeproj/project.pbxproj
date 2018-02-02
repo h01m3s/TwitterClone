@@ -20,6 +20,7 @@
 		DB48D318201BAFAF00A09429 /* HomeDatasourceController+navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D317201BAFAF00A09429 /* HomeDatasourceController+navbar.swift */; };
 		DB48D31A201BB2C300A09429 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D319201BB2C300A09429 /* TweetCell.swift */; };
 		DB48D31C201CF82E00A09429 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D31B201CF82E00A09429 /* Tweet.swift */; };
+		DB48D35B2024157A00A09429 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48D35A2024157A00A09429 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DB48D317201BAFAF00A09429 /* HomeDatasourceController+navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceController+navbar.swift"; sourceTree = "<group>"; };
 		DB48D319201BB2C300A09429 /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		DB48D31B201CF82E00A09429 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		DB48D35A2024157A00A09429 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		DB48D2F5201AD73400A09429 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				DB48D3592024156900A09429 /* Service */,
 				DB48D30E201AE5E900A09429 /* View */,
 				DB48D30D201AE5DD00A09429 /* Model */,
 				DB48D30C201AE5D000A09429 /* Controller */,
@@ -114,6 +117,14 @@
 				DB48D319201BB2C300A09429 /* TweetCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DB48D3592024156900A09429 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DB48D35A2024157A00A09429 /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		E1D193118B77E42B13EED0C4 /* Pods */ = {
@@ -275,6 +286,7 @@
 				DB48D310201AE60700A09429 /* UserHeaderFooter.swift in Sources */,
 				DB48D30B201AE0AC00A09429 /* HomeDatasourceController.swift in Sources */,
 				DB48D318201BAFAF00A09429 /* HomeDatasourceController+navbar.swift in Sources */,
+				DB48D35B2024157A00A09429 /* Service.swift in Sources */,
 				DB48D309201AD88400A09429 /* HomeController.swift in Sources */,
 				DB48D316201BA48800A09429 /* UserCell.swift in Sources */,
 			);
